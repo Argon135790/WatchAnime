@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Anime</title>
+    <link rel="stylesheet" href="styles.css" />
+  
+  <style> 
+
+      body { 
+
+        padding: 25px; 
+
+        background-color: white; 
+
+        color: black; 
+
+        font-size: 25px; 
+
+      } 
+
+      .dark-mode { 
+
+        background-color: black; 
+
+        color: white; 
+
+      } 
+
+      .light-mode { 
+
+        background-color: white; 
+
+        color: black; 
+
+      } 
+
+    </style> 
+  </head>
+  <body>
+     
+      <p><middle><h1>ANIMEBOOK</h1></middle></p>
+      <script src="script.js"></script>
+    <p>Trending Anime :-</p>
+   <img src="file:///storage/emulated/0/Web development/Animebanner.png" width ="1000" height ="415"alt="controls">
+   
+  <p><h2>Chainsaw Man Ep - 1</h2></p>
+   <video src ="file:///storage/emulated/0/Download/EP.1.v0.1666758631.480p.mp4" controls width ="1000" height="500"></video>
+
+  
+  <p>
+ <h3 id="DarkModetext">Dark Mode is OFF</h3> 
+
+    <button onclick="darkMode()">Darkmode</button> 
+
+    <button onclick="lightMode()">LightMode</button> 
+
+    <script> 
+
+      function darkMode() { 
+
+        var element = document.body; 
+
+        var content = document.getElementById("DarkModetext"); 
+
+        element.className = "dark-mode"; 
+
+        content.innerText = "Dark Mode is ON"; 
+
+      } 
+
+      function lightMode() { 
+
+        var element = document.body; 
+
+        var content = document.getElementById("DarkModetext"); 
+
+        element.className = "light-mode"; 
+
+        content.innerText = "Dark Mode is OFF"; 
+
+      } 
+
+    </script> 
+</p>
+
+
+  </body>
+</html>
